@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+    --font-l:  "Red Hat Display", sans-serif;
+    --font-s:  "Inter Tight", sans-serif;
+    --black: #020612;
+    --l-blue: #C0E8F9;
+    --l-grey: #9CBCD3;
+    --my-pink: #CA61C3;
+    --my-white: #FEFCFD;
+
+}
+
+a {
+  text-decoration: none!important;
+  color: var(--black)!important;
+}
+
+.bg-wh {
+  background-color: var(--my-white)!important;
+}
+
+.display-7 {
+  font-size: 1.5rem;
+}
+
+.icon {
+  max-width: 65px;
+  max-height: 65px;
+}
+
+.font-l {
+    font-family: var(--font-l);
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.font-s {
+    font-family: var(--font-s);
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.stronger {
+  font-weight: 500;
+}
+.lighter {
+  font-weight: 300!important;
+}
+
+.font-wh {
+  color: var(--my-white);
+}
+
+.border-lb {
+  border: solid 1px var(--l-blue);
+}
+
+.text-shad {
+  text-shadow: 1px 1px 10% var(--black);
+}
+
+.bg-darker {
+  background-color: var(--black)!important;
+}
+
+.cont {
+  text-underline-position: auto;
+}
+
+.cont:hover {
+  box-shadow: 1px 1px 1px var(--l-grey);
+}
+
+.text-small {
+  font-size:x-small;
+}
